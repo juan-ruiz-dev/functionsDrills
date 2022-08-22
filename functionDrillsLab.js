@@ -13,11 +13,11 @@
 
 //CODE HERE
 
-// function helloWorld() {
-//   console.log('Hello, World!')
-// }
+function helloWorld() {
+  console.log('Hello, World!')
+}
 
-// helloWorld()
+helloWorld()
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -26,8 +26,8 @@
 
 //CODE HERE
 
-// const jsNinja = word => 'I am a Javascript ninja!'
-// console.log(jsNinja())
+const jsNinja = word => 'I am a Javascript ninja!'
+console.log(jsNinja())
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -39,10 +39,10 @@
 //CODE HERE
 
 
-// function printName(name1) {
-//   return (name1)
-// }
-// console.log(printName('Juan'));
+function printName(name1) {
+  return (name1)
+}
+console.log(printName('Juan'));
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -55,11 +55,11 @@
 */
 
 //CODE HERE
-// function greeting(name) {
-//   return 'Hello, ' + name
-// }
+function greeting(name) {
+  return 'Hello, ' + name
+}
 
-// console.log(greeting('Juan'))
+console.log(greeting('Juan'))
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -73,15 +73,15 @@
 */
 
 //CODE HERE
-// const compareNums = (num1, num2) => {
-//   if (num1 > num2) {
-//     return num1
-//   } else if (num2 > 1) {
-//     return num2
-//   } else return num1
-// }
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+    return num1
+  } else if (num2 > 1) {
+    return num2
+  } else return num1
+}
 
-// console.log(compareNums(7, 7))
+console.log(compareNums(7, 7))
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -92,14 +92,14 @@
 */
 
 //CODE HERE
-// function add(num1, num2) {
-//   let number1 = Number(num1)
-//   let number2 = Number(num2)
-//   return (number1 + number2)
-// }
-// sum = add('1', '9')
+function add(num1, num2) {
+  let number1 = Number(num1)
+  let number2 = Number(num2)
+  return (number1 + number2)
+}
+sum = add('1', '9')
 
-// console.log(sum)
+console.log(sum)
 ////////////////// PROBLEM 7 ////////////////////
 
 /*
@@ -140,9 +140,9 @@ console.log('arrow')
 */
 
 
-// const exclaimThree = word => word.toUpperCase() + '!!!'
+const exclaimThree = word => word.toUpperCase() + '!!!'
 
-// console.log(exclaimThree('yes'))
+console.log(exclaimThree('yes'))
 ////////////////// PROBLEM 9 ////////////////////
 
 /*
@@ -155,8 +155,8 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
-console.log('expression')
+console.log('declaration')
+// console.log('expression')
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -169,19 +169,19 @@ console.log('expression')
 */
 
 //CODE HERE
-// function nameCheck(name) {
-//   if (name === 'Steven') {
-//     return 'What is up Steven?'
-//   } else if (name === 'Bryan') {
-//     return 'Hey Bryan!'
-//   } else {
-//     return 'Cool name, ' + name
-//   }
-// }
+function nameCheck(name) {
+  if (name === 'Steven') {
+    return 'What is up Steven?'
+  } else if (name === 'Bryan') {
+    return 'Hey Bryan!'
+  } else {
+    return 'Cool name, ' + name
+  }
+}
 
-// let nameGreeting = nameCheck('Juan')
+let nameGreeting = nameCheck('Juan')
 
-// console.log(nameGreeting)
+console.log(nameGreeting)
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -193,22 +193,22 @@ console.log('expression')
 */
 
 //CODE HERE
-// function faveColorFinder(color) {
-//   if (color === 'red') {
-//     return 'red is a great color'
-//   } else if (color === 'green') {
-//     return 'green is a solid favorite color'
-//   } else if (color === 'black') {
-//     return 'so trendy'
-//   } else {
-//     return 'you need to evaluate your favorite color choice'
-//   }
-// }
+function faveColorFinder(color) {
+  if (color === 'red') {
+    return 'red is a great color'
+  } else if (color === 'green') {
+    return 'green is a solid favorite color'
+  } else if (color === 'black') {
+    return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
 
-// let colorRating = faveColorFinder('black')
+let colorRating = faveColorFinder('black')
 
 
-// console.log(colorRating)
+console.log(colorRating)
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -216,13 +216,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Using a for loop, iterate over that array and console log each name.
   Call the function, passing in the `namesArr` array (above).
 */
-// function printAllNames(arr) {
-//   for (let i = 0; i < namesArr.length; i++) {
-//     console.log(namesArr[i])
-//   }
-// }
-// //CODE HERE
-// printAllNames()
+function printAllNames(arr) {
+  for (let i = 0; i < namesArr.length; i++) {
+    console.log(namesArr[i])
+  }
+}
+//CODE HERE
+printAllNames()
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -234,16 +234,16 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
-// function thatsOdd(num) {
-//   if (num % 2 === 0) {
-//     return 'That\'s not odd!'
-//   } else {
-//     return 'That is odd indeed!'
-//   }
-// }
-// let oddChecker = thatsOdd(1)
+function thatsOdd(num) {
+  if (num % 2 === 0) {
+    return 'That\'s not odd!'
+  } else {
+    return 'That is odd indeed!'
+  }
+}
+let oddChecker = thatsOdd(1)
 
-// console.log(oddChecker)
+console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
@@ -255,9 +255,9 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// const bestMovie = movie => `${movie} is the best movie ever!`
+const bestMovie = movie => `${movie} is the best movie ever!`
 
-// console.log(bestMovie('her'))
+console.log(bestMovie('her'))
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
@@ -299,18 +299,18 @@ let loser = 'Glimmer'
 
 
 
-// function theEliminator(arr, str) {
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] == str) {
-//       arr.splice(i, 1)
+function theEliminator(arr, str) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == str) {
+      arr.splice(i, 1)
 
-//     }
+    }
 
-//   }
-//   return arr
-// }
+  }
+  return arr
+}
 
-// console.log(theEliminator(contestants, loser))
+console.log(theEliminator(contestants, loser))
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
 /*
@@ -354,15 +354,15 @@ console.log(emailCheck('jryanruizlive.com'))
 
 //CODE HERE
 
-// function frogMan(gold) {
-//   let frogs = gold / 3;
-//   return parseInt(frogs)
-// }
+function frogMan(gold) {
+  let frogs = gold / 3;
+  return parseInt(frogs)
+}
 
-// totalFrogs = frogMan(105)
+totalFrogs = frogMan(105)
 
 
-// console.log(totalFrogs)
+console.log(totalFrogs)
 ////////////////// PROBLEM 20 ////////////////////
 /*
   You might have noticed a slight bug in the previous problem. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in the previous problem (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
@@ -371,15 +371,15 @@ console.log(emailCheck('jryanruizlive.com'))
 //CODE HERE
 //i did this before reading number 20
 
-// function frogMan(gold) {
-//   let frogs = gold / 3;
-//   return parseInt(frogs)
-// }
+function frogMan(gold) {
+  let frogs = gold / 3;
+  return parseInt(frogs)
+}
 
-// totalFrogs = frogMan(105)
+totalFrogs = frogMan(105)
 
 
-// console.log(totalFrogs)
+console.log(totalFrogs)
 
 
 ////////////////// PROBLEM 21 ////////////////////
@@ -389,19 +389,19 @@ let sampleArray = [6, 7, 8, 10, 1]
 */
 
 //CODE HERE
-// function helper(arr) {
+function helper(arr) {
 
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i + 1] < arr[i])
-//       return false
-//   }
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i + 1] < arr[i])
+      return false
+  }
 
-//   return true
-// }
+  return true
+}
 
-// let arrayIsAscending = helper(sampleArray)
+let arrayIsAscending = helper(sampleArray)
 
-// console.log(arrayIsAscending)
+console.log(arrayIsAscending)
 ////////////////// PROBLEM 22 ////////////////////
 
 let duck = "cute";
